@@ -1,9 +1,6 @@
 import * as React from 'react';
 /* tslint:disable */
 
-
-// interface IAppProps {}
-
 interface IAppState {
   num1: number;
   num2: number;
@@ -17,8 +14,6 @@ interface IAppState {
 
 class App extends React.Component <{}, IAppState> {
   public state = {num1: 0, num2: 0, result: 0, count: 1, action: "", display: ""}
-
-  
 
   public render() {
     
